@@ -45,5 +45,6 @@ struct Classwork2: View {
 struct Classwork2_Previews: PreviewProvider {
     static var previews: some View {
         Classwork2()
+            .previewDevice("iPhone 13")
     }
 }
